@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\AsreriodManage.cs" />
+    <Compile Include="Assets\scripts\BackgroundMove.cs" />
     <Compile Include="Assets\scripts\Explosion.cs" />
     <Compile Include="Assets\scripts\GameManage.cs" />
     <Compile Include="Assets\scripts\Limit.cs" />

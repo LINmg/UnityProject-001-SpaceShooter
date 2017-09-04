@@ -42,6 +42,10 @@ public class PlayerManage : MonoBehaviour
         rb.velocity = speed * move;
         rb.position = new Vector3(Mathf.Clamp(rb.position.x, x_min, x_max),
             0f, Mathf.Clamp(rb.position.z, z_min, z_max));
+        if ( h != 0)
+        {
+            rb.angularVelocity = new Vector3(0,0,h * speed );
+        }
     }
    
 
