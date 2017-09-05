@@ -78,14 +78,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\scripts\AsreriodManage.cs" />
-    <Compile Include="Assets\scripts\BackgroundMove.cs" />
-    <Compile Include="Assets\scripts\Explosion.cs" />
-    <Compile Include="Assets\scripts\GameManage.cs" />
-    <Compile Include="Assets\scripts\Limit.cs" />
-    <Compile Include="Assets\scripts\Mover.cs" />
-    <Compile Include="Assets\scripts\PlayerManage.cs" />
-    <Compile Include="Assets\scripts\RandomAsreriod.cs" />
+    <Compile Include="Assets\Scripts\LevelControl\Home.cs" />
+    <Compile Include="Assets\Scripts\LevelControl\LoadLevel.cs" />
+    <Compile Include="Assets\Scripts\LoginUI\Exit.cs" />
+    <Compile Include="Assets\Scripts\LoginUI\Setting.cs" />
+    <Compile Include="Assets\Scripts\LoginUI\StartGame.cs" />
+    <Compile Include="Assets\Scripts\MainGame\AsreriodManage.cs" />
+    <Compile Include="Assets\Scripts\MainGame\BackgroundMove.cs" />
+    <Compile Include="Assets\Scripts\MainGame\Explosion.cs" />
+    <Compile Include="Assets\Scripts\MainGame\HandleControl.cs" />
+    <Compile Include="Assets\Scripts\MainGame\Limit.cs" />
+    <Compile Include="Assets\Scripts\MainGame\Mover.cs" />
+    <Compile Include="Assets\Scripts\MainGame\PlayerManage.cs" />
+    <Compile Include="Assets\Scripts\MainGame\RandomAsreriod.cs" />
+    <Compile Include="Assets\Scripts\MainGame\Score.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
